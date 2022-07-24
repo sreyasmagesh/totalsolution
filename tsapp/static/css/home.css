@@ -1,7 +1,7 @@
 *{
 	padding:0;
 	margin:0;
-  background-color:#c5d8f1;
+  background-color:#ffffff;
 }
 
 html{
@@ -18,7 +18,7 @@ body{
     margin-left: 44%;
 }
 #input1{
-    size: 20;
+    size: 30;
 }
 .header .catagories img{
     width: 50%;
@@ -29,7 +29,7 @@ body{
     display: inline;
     padding-top: 1%;
     padding-bottom: 1%;
-    border: 2px solid #161d29;
+    border: 2px solid rgb(33, 34, 48);
     border-radius: 8px;
 }
 .header .catagories h3{
@@ -53,11 +53,11 @@ body{
 
 #carddd{
   margin-left: 3%;
-  border: 2px solid rgb(0, 183, 255);
+  border: 2px solid rgb(14, 21, 24);
 }
 
 #carddd h1{
-  color: black;
+  color: rgb(72, 162, 235);
 }
 #carddd p{
   color: black;
