@@ -1,1 +1,1 @@
-web: gunicorn tsapp.wsgi
+web: gunicorn totalsolution.wsgi
