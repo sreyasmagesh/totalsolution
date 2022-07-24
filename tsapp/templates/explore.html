@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/explore.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</head>
+  <body>
+      <div class="header">
+          <img src="{% static 'images/logotran.png' %}" alt="">
+      </div>
+      <center>
+        <div class="selector">
+            <select name="" id="">
+                <option value="">HOUSE KEEPING</option>
+                <option value="">RENT CAR</option>
+                <option value="">MAINTENANCE</option>
+                <option value="">RENT BUILDING</option>
+                <option value="">OTHERS</option>
+            </select><br><br>
+            <select name="" id="">
+                  <option value="">KASARAGOD</option>
+                  <option value="">KANNUR</option>
+                  <option value="">WAYNAD</option>
+                  <option value="">KOZHIKODE</option>
+                  <option value="">MALAPPURAM</option>
+                  <option value="">PALAKKAD</option>
+                <option value="">TRISSUR</option>
+                <option value="">IDUKKI</option>
+                <option value="">ERANAKULAM</option>
+                <option value="">ALAPUZHA</option>
+                <option value="">KOTTAYAM</option>
+                <option value="">PATHANAMTHITTA</option>
+                <option value="">KOLLAM</option>
+                <option value="">THIRYVANANTHAPURAM</option>
+            </select><br><br>
+            <button id="search"  type="button">SEARCH</button>
+         </div>
+      </center>
+      
+  </body>
+</html>

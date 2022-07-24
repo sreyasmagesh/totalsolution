@@ -1,0 +1,27 @@
+.header{
+    background-color: rgb(13, 28, 51);
+}
+.header img{
+    width: 13%;
+    padding: 1%;
+}
+.selector select{
+   width: 30%;
+   height: 30%;
+   font-size: 170%;
+}
+.selector{
+    margin-top: 10%;
+}
+.selector button{
+    color: #ffffff;
+    font-size: 29px;
+    display: block;
+    border: solid 3px #ffffff;
+    padding:9px 28px 9px 28px;
+    border-radius: 45px;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    transition: 400ms;
+    
+  }

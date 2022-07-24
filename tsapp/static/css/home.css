@@ -33,15 +33,16 @@ body{
     border-radius: 8px;
 }
 .header .catagories h3{
-    font-size: 65%;
+    font-size: 105%;
+    color: rgb(30, 30, 49);
 }
 
 .div2 button{
   color: #ffffff;
-  font-size: 19px;
+  font-size: 29px;
   display: block;
   border: solid 3px #ffffff;
-  padding:10px 38px 12px 40px;
+  padding:14px 38px 14px 38px;
   border-radius: 45px;
   text-align: center;
   background-color: rgb(0, 183, 255);
@@ -87,6 +88,7 @@ body{
 	width: 38%;
 	margin-top: -7%;
 	margin-left: -50%;
+  
 }
 .div2 .bio{
     
