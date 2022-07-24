@@ -120,7 +120,7 @@ body{
 
 @media screen and (max-width: 600px){
   .header .catagories img{
-    width: 120%;
+    width: 40px;
     
     background-color: #ffffff;
 }
@@ -133,7 +133,7 @@ body{
     margin-left: 0%;
 }
 .header .catagories h3{
-    font-size: 65%;
+    font-size: 45%;
 }
 
 #card img{
